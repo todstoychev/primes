@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Todstoychev\PrimesBundle\Generator;
+namespace Todstoychev\PrimesBundle\Tests\Generator;
 
 use PHPUnit\Framework\TestCase;
 use Todstoychev\PrimesBundle\Exception\AttributeNotSetException;
@@ -26,7 +26,7 @@ class TableGeneratorTest extends TestCase
 
     public function testTableGeneration()
     {
-        $expected = file_get_contents(__DIR__.'/../../../fixtures/table_output.txt');
+        $expected = file_get_contents(__DIR__.'/../fixtures/table_output.txt');
         $result = $this->tableGenerator->setColumns($this->columns)
                                        ->generate()
         ;
