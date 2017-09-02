@@ -2,7 +2,7 @@
 
 namespace Tests\Todstoychev\PrimesBundle\Generator;
 
-use Symfony\Bundle\FrameworkBundle\Tests\TestCase;
+use PHPUnit\Framework\TestCase;
 use Todstoychev\PrimesBundle\Exception\AttributeNotSetException;
 use Todstoychev\PrimesBundle\Generator\TableGenerator;
 
