@@ -1,0 +1,18 @@
+{
+    "name": "todstoychev/primes",
+    "description": "Simple bundle to visualise primes and their multiplication table",
+    "type": "symfony-bundle",
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "todstoychev",
+            "email": "todstoychev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
